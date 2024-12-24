@@ -1,0 +1,164 @@
+{
+ "warehouse": [
+  {
+   "material_name": "Цемент М500",
+   "unit_of_measure": "мешок",
+   "quantity": 120,
+   "price": 450,
+   "supplier": "СтройМаркет",
+   "date_received": "2023-10-26"
+  },
+  {
+   "material_name": "Цемент М400",
+   "unit_of_measure": "мешок",
+   "quantity": 80,
+   "price": 400,
+   "supplier": "СтройМир",
+   "date_received": "2023-10-20"
+  },
+  {
+   "material_name": "Речной песок",
+   "unit_of_measure": "куб.м",
+   "quantity": 15,
+   "price": 1200,
+   "supplier": "Песок-Сервис",
+   "date_received": "2023-10-28"
+  },
+  {
+   "material_name": "Карьерный песок",
+   "unit_of_measure": "куб.м",
+   "quantity": 8,
+   "price": 900,
+   "supplier": "Песок-Сервис",
+   "date_received": "2023-10-25"
+  },
+  {
+   "material_name": "Гранитный щебень 20-40 мм",
+   "unit_of_measure": "куб.м",
+   "quantity": 10,
+   "price": 1800,
+   "supplier": "Щебень-Транс",
+   "date_received": "2023-10-27"
+  },
+  {
+   "material_name": "Гравийный щебень 5-20 мм",
+   "unit_of_measure": "куб.м",
+   "quantity": 6,
+   "price": 1500,
+   "supplier": "Щебень-Транс",
+   "date_received": "2023-10-22"
+  },
+  {
+   "material_name": "Красный полнотелый кирпич",
+   "unit_of_measure": "штука",
+   "quantity": 7000,
+   "price": 35,
+   "supplier": "Кирпичный завод",
+   "date_received": "2023-10-24"
+  },
+  {
+   "material_name": "Силикатный кирпич",
+   "unit_of_measure": "штука",
+   "quantity": 3000,
+   "price": 28,
+   "supplier": "Кирпичный завод",
+   "date_received": "2023-10-21"
+  },
+  {
+   "material_name": "Сосновый брус 100х100 мм",
+   "unit_of_measure": "куб.м",
+   "quantity": 3,
+   "price": 8000,
+   "supplier": "ЛесХоз",
+   "date_received": "2023-10-26"
+  },
+  {
+   "material_name": "Сосновый брус 150х150 мм",
+   "unit_of_measure": "куб.м",
+   "quantity": 2,
+   "price": 12000,
+   "supplier": "ЛесХоз",
+   "date_received": "2023-10-23"
+  },
+  {
+   "material_name": "Обрезная доска 50х150 мм",
+   "unit_of_measure": "куб.м",
+   "quantity": 5,
+   "price": 6000,
+   "supplier": "ЛесХоз",
+   "date_received": "2023-10-28"
+  },
+  {
+   "material_name": "Обрезная доска 25х150 мм",
+   "unit_of_measure": "куб.м",
+   "quantity": 4,
+   "price": 4000,
+   "supplier": "ЛесХоз",
+   "date_received": "2023-10-25"
+  },
+  {
+   "material_name": "Гвозди 100 мм",
+   "unit_of_measure": "кг",
+   "quantity": 10,
+   "price": 300,
+   "supplier": "Метизы",
+   "date_received": "2023-10-27"
+  },
+  {
+   "material_name": "Гвозди 70 мм",
+   "unit_of_measure": "кг",
+   "quantity": 5,
+   "price": 250,
+   "supplier": "Метизы",
+   "date_received": "2023-10-22"
+  },
+  {
+   "material_name": "Белая фасадная краска",
+   "unit_of_measure": "банка",
+   "quantity": 15,
+   "price": 1200,
+   "supplier": "Краски-Про",
+   "date_received": "2023-10-24"
+  },
+  {
+   "material_name": "Серая фасадная краска",
+   "unit_of_measure": "банка",
+   "quantity": 8,
+   "price": 1000,
+   "supplier": "Краски-Про",
+   "date_received": "2023-10-21"
+  },
+  {
+   "material_name": "Финишная шпаклевка",
+   "unit_of_measure": "ведро",
+   "quantity": 10,
+   "price": 800,
+   "supplier": "СтройMix",
+   "date_received": "2023-10-26"
+  },
+  {
+   "material_name": "Стартовая шпаклевка",
+   "unit_of_measure": "ведро",
+   "quantity": 5,
+   "price": 600,
+   "supplier": "СтройMix",
+   "date_received": "2023-10-23"
+  },
+  {
+   "material_name": "Белые флизелиновые обои",
+   "unit_of_measure": "рулон",
+   "quantity": 30,
+   "price": 600,
+   "supplier": "Обои-Дом",
+   "date_received": "2023-10-28"
+  },
+  {
+   "material_name": "Светлые виниловые обои",
+   "unit_of_measure": "рулон",
+   "quantity": 20,
+   "price": 400,
+   "supplier": "Обои-Дом",
+   "date_received": "2023-10-25"
+  }
+ ]
+}
