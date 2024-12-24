@@ -1,7 +1,7 @@
 import json
 from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import Screen, ScreenManager
-from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
 from kivy.lang import Builder
 from kivy.uix.button import Button
@@ -74,6 +74,7 @@ class Object(Screen):
             text4 = Label(text=str(item['price']), halign='left', size_hint_x=0.15)
             grid.add_widget(text4)
             but_provider = Button(text=item['supplier'], halign='left', size_hint_x=0.25, background_normal='', background_color=(.3, .3, .4, .85))
+            but_provider.bind(on_press=self.switch_screen_callback(item['id_screen']))
             grid.add_widget(but_provider)
             text6 = Label(text=item['date_received'], halign='left', size_hint_x=0.15)
             grid.add_widget(text6)
@@ -87,18 +88,58 @@ class Object(Screen):
         self.manager.transition.direction = 'right'
         self.manager.current = 'menu'
 
+    def switch_screen_callback(self, screen_name):
+        def callback(instance):
+            if screen_name in self.manager.screen_names:
+                self.manager.current = screen_name
+            else:
+                print(f"Error: Screen '{screen_name}' not found in ScreenManager.")
+
+        return callback
+
+
+class Supplier(Screen):
+    def __init__(self, name_s, information, **kwargs):
+        super().__init__(**kwargs)
+        draw_rectangle_on_canvas(self)
+        bxlt = BoxLayout(pos_hint={'center_x':.53, 'center_y':.6}, size_hint = (.8, .65))
+        bxlt.add_widget(Label(text=information['information']))
+        name_object = Label(text=(name_s), font_name='Roboto-Regular.ttf', font_size=35,
+                            size_hint=(0.2, 0.05), pos_hint={'x': 0.43, 'y': 0.85})
+        return_menu = Button(text='Назад', background_normal='', background_color=(.3, .3, .4, .85),
+                             size_hint=(0.2, 0.05),
+                             pos_hint={'x': 0.02, 'y': 0.93}, font_name='Roboto-Regular.ttf', font_size=35)
+        return_menu.bind(on_press=self.go_to_menu)
+        self.add_widget(name_object)
+        self.add_widget(return_menu)
+        self.add_widget(bxlt)
+
+
+    def go_to_menu(self, *args):
+        self.manager.transition.direction = 'right'
+        self.manager.current = 'menu'
+
+
+
 class MyApp(App):
     def build(self):
         Window.size = (800, 800)
         first_obj = Object(file_json='object_first.json', name_o='Торговый центр', addres='Улица Гоголя, 13, Новосибирск', name='first')
         second_obj = Object(file_json='object_first.json', name_o='Парк', addres='Улица Мичурина, 8, Новосибирск', name='second')
         third_obj = Object(file_json='object_first.json', name_o='Котлован', addres='Улица Горский, 64, Новосибирск', name='third')
+
+        with open('information_supplier.json', "r", encoding='utf-8') as f:
+            sup_information = json.load(f)
+
+        stroy_market_sup = Supplier(name_s='СтройМаркет', information=sup_information['sup'][0], name='stroy_market')
+
         sm = ScreenManager()
         screen_menu = Menu_app(name='menu')
         sm.add_widget(screen_menu)
         sm.add_widget(first_obj)
         sm.add_widget(second_obj)
         sm.add_widget(third_obj)
+        sm.add_widget(stroy_market_sup)
 
         return sm
 
