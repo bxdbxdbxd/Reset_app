@@ -1,0 +1,157 @@
+{
+    "warehouse": [
+        {
+            "material_name": "Саженец дуба",
+            "unit_of_measure": "штука",
+            "quantity": 50,
+            "price": 800,
+            "supplier": "ЛесХоз",
+            "date_received": "2023-10-27",
+             "id_screen": "les_hoz"
+        },
+        {
+            "material_name": "Саженец клена",
+            "unit_of_measure": "штука",
+            "quantity": 70,
+            "price": 600,
+            "supplier": "ЛесХоз",
+            "date_received": "2023-10-25",
+             "id_screen": "les_hoz"
+        },
+         {
+            "material_name": "Саженец ели",
+            "unit_of_measure": "штука",
+            "quantity": 60,
+            "price": 500,
+            "supplier": "ЛесХоз",
+            "date_received": "2023-10-28",
+             "id_screen": "les_hoz"
+        },
+         {
+            "material_name": "Саженец березы",
+            "unit_of_measure": "штука",
+            "quantity": 40,
+            "price": 400,
+            "supplier": "ЛесХоз",
+            "date_received": "2023-10-29",
+             "id_screen": "les_hoz"
+        },
+        {
+            "material_name": "Грунт плодородный",
+            "unit_of_measure": "куб.м",
+            "quantity": 20,
+            "price": 1500,
+            "supplier": "Песок-Сервис",
+            "date_received": "2023-10-28",
+             "id_screen": "pesok_service"
+        },
+         {
+             "material_name": "Торф",
+             "unit_of_measure": "куб.м",
+            "quantity": 15,
+            "price": 1200,
+             "supplier": "Песок-Сервис",
+             "date_received": "2023-10-26",
+              "id_screen": "pesok_service"
+        },
+        {
+            "material_name": "Мульча",
+            "unit_of_measure": "куб.м",
+            "quantity": 10,
+            "price": 1000,
+            "supplier": "ЛесХоз",
+            "date_received": "2023-10-26",
+             "id_screen": "les_hoz"
+        },
+        {
+             "material_name": "Бордюрный камень",
+             "unit_of_measure": "штука",
+             "quantity": 150,
+             "price": 300,
+             "supplier": "СтройМир",
+            "date_received": "2023-10-25",
+             "id_screen": "stroy_mir"
+        },
+        {
+            "material_name": "Тротуарная плитка",
+            "unit_of_measure": "кв.м",
+            "quantity": 100,
+             "price": 700,
+             "supplier": "СтройМир",
+             "date_received": "2023-10-24",
+             "id_screen": "stroy_mir"
+        },
+         {
+             "material_name": "Уличный светильник",
+             "unit_of_measure": "штука",
+             "quantity": 20,
+            "price": 3000,
+             "supplier": "СтройМаркет",
+            "date_received": "2023-10-28",
+            "id_screen": "stroy_market"
+         },
+        {
+            "material_name": "Скамейка парковая",
+            "unit_of_measure": "штука",
+            "quantity": 10,
+             "price": 12000,
+             "supplier": "СтройМаркет",
+             "date_received": "2023-10-27",
+             "id_screen": "stroy_market"
+        },
+         {
+             "material_name": "Урна парковая",
+             "unit_of_measure": "штука",
+             "quantity": 15,
+            "price": 2500,
+             "supplier": "СтройМаркет",
+            "date_received": "2023-10-28",
+             "id_screen": "stroy_market"
+         },
+        {
+            "material_name": "Газонная трава",
+            "unit_of_measure": "кг",
+            "quantity": 5,
+             "price": 1000,
+             "supplier":"ЛесХоз",
+              "date_received": "2023-10-26",
+            "id_screen": "les_hoz"
+        },
+        {
+            "material_name": "Семена цветов",
+             "unit_of_measure": "упаковка",
+             "quantity": 30,
+            "price": 300,
+            "supplier":"ЛесХоз",
+              "date_received": "2023-10-25",
+              "id_screen": "les_hoz"
+        },
+         {
+             "material_name": "Песок для детской площадки",
+             "unit_of_measure": "куб.м",
+             "quantity": 10,
+             "price": 1000,
+            "supplier": "Песок-Сервис",
+             "date_received": "2023-10-27",
+              "id_screen":"pesok_service"
+         },
+          {
+            "material_name": "Краска для разметки",
+            "unit_of_measure": "банка",
+            "quantity": 5,
+            "price": 1500,
+             "supplier": "Краски-Про",
+              "date_received": "2023-10-29",
+               "id_screen": "kraski_pro"
+        },
+          {
+            "material_name": "Органическое удобрение",
+            "unit_of_measure": "кг",
+             "quantity": 15,
+              "price": 400,
+            "supplier":"ЛесХоз",
+              "date_received":"2023-10-27",
+                "id_screen":"les_hoz"
+        }
+    ]
+}
