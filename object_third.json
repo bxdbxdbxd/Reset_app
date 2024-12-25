@@ -1,0 +1,103 @@
+{
+  "warehouse": [
+    {
+      "material_name": "Бетон M350",
+      "unit_of_measure": "куб.м",
+      "quantity": 50,
+      "price": 4500,
+      "supplier": "СтройМаркет",
+      "date_received": "2023-11-01",
+      "id_screen": "stroy_market"
+    },
+    {
+      "material_name": "Арматура 12 мм",
+      "unit_of_measure": "тонна",
+      "quantity": 10,
+      "price": 60000,
+      "supplier": "Метизы",
+      "date_received": "2023-10-30",
+        "id_screen": "metizy"
+    },
+    {
+      "material_name": "Арматура 16 мм",
+      "unit_of_measure": "тонна",
+      "quantity": 5,
+      "price": 65000,
+      "supplier": "Метизы",
+      "date_received": "2023-10-30",
+      "id_screen": "metizy"
+    },
+    {
+      "material_name": "Песок строительный",
+       "unit_of_measure": "куб.м",
+       "quantity": 100,
+      "price": 1000,
+      "supplier": "Песок-Сервис",
+      "date_received": "2023-10-31",
+      "id_screen": "pesok_service"
+    },
+      {
+      "material_name": "Щебень 20-40 мм",
+      "unit_of_measure": "куб.м",
+      "quantity": 80,
+      "price": 1800,
+      "supplier": "Щебень-Транс",
+      "date_received": "2023-11-02",
+       "id_screen": "scheben_trans"
+    },
+    {
+        "material_name": "Опалубка б/у",
+        "unit_of_measure": "кв.м",
+        "quantity": 200,
+        "price": 300,
+        "supplier": "СтройМир",
+        "date_received":"2023-10-30",
+         "id_screen":"stroy_mir"
+    },
+     {
+       "material_name": "Фанера ламинированная",
+       "unit_of_measure": "лист",
+        "quantity": 50,
+      "price": 1200,
+       "supplier": "ЛесХоз",
+        "date_received":"2023-10-28",
+          "id_screen":"les_hoz"
+     },
+     {
+      "material_name": "Гидроизоляция рулонная",
+      "unit_of_measure":"рулон",
+       "quantity": 30,
+       "price": 800,
+       "supplier": "СтройМаркет",
+       "date_received":"2023-10-29",
+        "id_screen":"stroy_market"
+     },
+      {
+       "material_name": "Геотекстиль",
+       "unit_of_measure":"кв.м",
+        "quantity":150,
+       "price": 150,
+       "supplier":"СтройМир",
+        "date_received":"2023-10-30",
+          "id_screen":"stroy_mir"
+      },
+     {
+        "material_name":"Доска обрезная 50х150 мм",
+        "unit_of_measure":"куб.м",
+         "quantity": 5,
+         "price": 6000,
+        "supplier":"ЛесХоз",
+         "date_received":"2023-10-29",
+         "id_screen":"les_hoz"
+     },
+       {
+        "material_name":"Доска обрезная 25х100 мм",
+        "unit_of_measure":"куб.м",
+         "quantity": 3,
+         "price": 4500,
+          "supplier": "ЛесХоз",
+         "date_received":"2023-10-31",
+         "id_screen":"les_hoz"
+     }
+  ]
+}
