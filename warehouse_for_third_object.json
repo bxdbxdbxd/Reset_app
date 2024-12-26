@@ -1,0 +1,175 @@
+{
+  "warehouse": [
+    {
+      "material_name": "Бетон М300",
+      "unit_of_measure": "куб.м",
+      "quantity": 50,
+      "price": 5000,
+      "supplier": "БетонСтрой",
+      "date_received": "2023-10-27",
+      "id_screen": "beton_stroy"
+    },
+     {
+      "material_name": "Бетон М200",
+      "unit_of_measure": "куб.м",
+      "quantity": 30,
+      "price": 4500,
+       "supplier": "БетонСервис",
+      "date_received": "2023-10-22",
+      "id_screen": "beton_servis"
+    },
+    {
+      "material_name": "Арматура 12 мм",
+      "unit_of_measure": "тн",
+      "quantity": 10,
+      "price": 60000,
+      "supplier": "МеталлТорг",
+      "date_received": "2023-10-28",
+      "id_screen": "metall_torg"
+    },
+    {
+      "material_name": "Арматура 10 мм",
+      "unit_of_measure": "тн",
+      "quantity": 8,
+      "price": 55000,
+        "supplier": "СтальПром",
+      "date_received": "2023-10-24",
+      "id_screen": "stal_prom"
+    },
+    {
+      "material_name": "Опалубка щитовая",
+      "unit_of_measure": "кв.м",
+      "quantity": 100,
+      "price": 800,
+        "supplier": "ОпалубкаСтрой",
+      "date_received": "2023-10-21",
+      "id_screen": "opalubka_stroy"
+    },
+     {
+       "material_name": "Опалубка для колонн",
+      "unit_of_measure": "шт",
+      "quantity": 20,
+      "price": 1200,
+         "supplier": "ОпалубкаСтрой",
+       "date_received": "2023-10-25",
+       "id_screen": "opalubka_stroy"
+    },
+    {
+      "material_name": "Геотекстиль",
+       "unit_of_measure": "кв.м",
+      "quantity": 150,
+      "price": 150,
+        "supplier": "ГеоСтрой",
+      "date_received": "2023-10-23",
+      "id_screen": "geo_stroy"
+    },
+     {
+      "material_name": "Щебень фракция 20-40",
+      "unit_of_measure": "куб.м",
+      "quantity": 25,
+      "price": 1500,
+       "supplier": "КарьерСервис",
+      "date_received": "2023-10-20",
+       "id_screen": "karer_servis"
+    },
+       {
+      "material_name": "Песок строительный",
+       "unit_of_measure": "куб.м",
+      "quantity": 30,
+      "price": 1000,
+        "supplier": "ПесокТранс",
+      "date_received": "2023-10-26",
+       "id_screen": "pesok_trans"
+    },
+       {
+       "material_name": "Доска обрезная 50х150",
+      "unit_of_measure": "куб.м",
+      "quantity": 5,
+      "price": 7000,
+         "supplier": "ЛесПром",
+        "date_received": "2023-10-27",
+         "id_screen": "les_prom"
+    },
+    {
+       "material_name": "Проволока вязальная",
+      "unit_of_measure": "кг",
+      "quantity": 20,
+      "price": 300,
+        "supplier": "МетизТорг",
+      "date_received": "2023-10-24",
+      "id_screen": "metiz_torg"
+    },
+    {
+      "material_name": "Гвозди строительные",
+      "unit_of_measure": "кг",
+      "quantity": 10,
+      "price": 250,
+       "supplier": "КрепежМаркет",
+      "date_received": "2023-10-21",
+      "id_screen": "krepezh_market"
+    },
+      {
+      "material_name": "Пленка полиэтиленовая",
+      "unit_of_measure": "рулон",
+      "quantity": 15,
+      "price": 500,
+         "supplier": "ПленкаПром",
+        "date_received": "2023-10-22",
+        "id_screen": "plenka_prom"
+    },
+        {
+      "material_name": "Дистанционные фиксаторы",
+      "unit_of_measure": "шт",
+      "quantity": 500,
+      "price": 50,
+           "supplier": "КрепСтрой",
+       "date_received": "2023-10-28",
+        "id_screen": "krep_stroy"
+    },
+    {
+      "material_name": "Гидроизоляция рулонная",
+      "unit_of_measure": "рулон",
+      "quantity": 10,
+      "price": 1000,
+       "supplier": "ГидроИзол",
+      "date_received": "2023-10-23",
+       "id_screen": "gidro_izol"
+     },
+     {
+       "material_name": "Лента герметизирующая",
+      "unit_of_measure": "рулон",
+      "quantity": 5,
+       "price": 400,
+         "supplier": "ГерметикПром",
+        "date_received": "2023-10-25",
+         "id_screen": "germetik_prom"
+    },
+    {
+        "material_name": "Сварочные электроды",
+        "unit_of_measure": "упак",
+        "quantity": 5,
+        "price": 800,
+          "supplier": "СваркаПлюс",
+        "date_received": "2023-10-20",
+          "id_screen": "svarka_plus"
+    },
+    {
+       "material_name": "Дизельное топливо",
+      "unit_of_measure": "л",
+      "quantity": 2000,
+       "price": 55,
+         "supplier": "ТопливоОпт",
+        "date_received": "2023-10-26",
+         "id_screen": "toplivo_opt"
+    },
+    {
+       "material_name": "Моторное масло",
+      "unit_of_measure": "л",
+      "quantity": 50,
+      "price": 300,
+         "supplier": "АвтоМасла",
+        "date_received": "2023-10-27",
+          "id_screen": "avto_masla"
+    }
+  ]
+}

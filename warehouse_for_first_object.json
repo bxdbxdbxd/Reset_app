@@ -1,0 +1,184 @@
+{
+ "warehouse": [
+  {
+   "material_name": "Профнастил С8 2м",
+   "unit_of_measure": "лист",
+   "quantity": 200,
+   "price": 650,
+   "supplier": "МеталлСтрой",
+   "date_received": "2023-10-27",
+    "id_screen": "metall_stroy"
+  },
+  {
+   "material_name": "Металлочерепица Монтеррей",
+   "unit_of_measure": "лист",
+   "quantity": 150,
+   "price": 800,
+    "supplier": "МеталлСтрой",
+   "date_received": "2023-10-22",
+    "id_screen": "metall_stroy"
+  },
+  {
+    "material_name": "Утеплитель минвата 100мм",
+    "unit_of_measure": "упак",
+    "quantity": 30,
+    "price": 1500,
+     "supplier": "ТеплоИзол",
+    "date_received": "2023-10-25",
+     "id_screen": "teplo_izol"
+  },
+    {
+    "material_name": "Утеплитель пенополистирол 50мм",
+    "unit_of_measure": "лист",
+    "quantity": 50,
+    "price": 500,
+     "supplier": "ТеплоИзол",
+    "date_received": "2023-10-20",
+     "id_screen": "teplo_izol"
+  },
+  {
+   "material_name": "Гипсокартон 12,5 мм",
+   "unit_of_measure": "лист",
+   "quantity": 120,
+   "price": 400,
+     "supplier": "Гипсомир",
+   "date_received": "2023-10-28",
+    "id_screen": "gipsomir"
+  },
+  {
+   "material_name": "Профиль для гипсокартона 60х27",
+   "unit_of_measure": "шт",
+   "quantity": 300,
+   "price": 100,
+     "supplier": "Гипсомир",
+   "date_received": "2023-10-24",
+    "id_screen": "gipsomir"
+  },
+  {
+   "material_name": "Саморезы по дереву 4х45",
+   "unit_of_measure": "кг",
+   "quantity": 8,
+   "price": 400,
+      "supplier": "МетизТорг",
+   "date_received": "2023-10-21",
+   "id_screen": "metiz_torg"
+  },
+  {
+   "material_name": "Саморезы по металлу 3,5х25",
+   "unit_of_measure": "кг",
+   "quantity": 6,
+   "price": 450,
+    "supplier": "МетизТорг",
+   "date_received": "2023-10-26",
+    "id_screen": "metiz_torg"
+  },
+   {
+   "material_name": "Труба ПВХ 110мм",
+   "unit_of_measure": "м",
+   "quantity": 50,
+   "price": 300,
+      "supplier": "СантехПласт",
+    "date_received": "2023-10-23",
+     "id_screen": "santeh_plast"
+  },
+  {
+    "material_name": "Труба полипропилен 20мм",
+    "unit_of_measure": "м",
+    "quantity": 100,
+    "price": 150,
+      "supplier": "СантехПласт",
+    "date_received": "2023-10-27",
+    "id_screen": "santeh_plast"
+  },
+   {
+    "material_name": "Электрический кабель ВВГ 3х2,5",
+    "unit_of_measure": "м",
+    "quantity": 200,
+    "price": 80,
+     "supplier": "ЭлектроМир",
+    "date_received": "2023-10-22",
+    "id_screen": "elektro_mir"
+  },
+    {
+    "material_name": "Электрический кабель ПВС 3х1,5",
+      "unit_of_measure": "м",
+    "quantity": 150,
+    "price": 60,
+     "supplier": "ЭлектроМир",
+    "date_received": "2023-10-25",
+     "id_screen": "elektro_mir"
+  },
+  {
+   "material_name": "Дверь межкомнатная шпон",
+   "unit_of_measure": "шт",
+   "quantity": 10,
+   "price": 4500,
+    "supplier": "ДвериМаркет",
+   "date_received": "2023-10-24",
+    "id_screen": "dveri_market"
+  },
+    {
+   "material_name": "Дверь входная металлическая",
+   "unit_of_measure": "шт",
+   "quantity": 3,
+   "price": 12000,
+    "supplier": "ДвериМаркет",
+   "date_received": "2023-10-26",
+    "id_screen": "dveri_market"
+  },
+    {
+   "material_name": "Плитка керамическая 30х30",
+   "unit_of_measure": "кв.м",
+   "quantity": 40,
+   "price": 900,
+    "supplier": "ПлиткаСтиль",
+   "date_received": "2023-10-21",
+    "id_screen": "plitka_stil"
+  },
+    {
+    "material_name": "Клей для плитки",
+    "unit_of_measure": "мешок",
+    "quantity": 20,
+    "price": 550,
+      "supplier": "ПлиткаСтиль",
+    "date_received": "2023-10-23",
+     "id_screen": "plitka_stil"
+  },
+ {
+    "material_name": "Линолеум бытовой",
+    "unit_of_measure": "кв.м",
+    "quantity": 60,
+    "price": 400,
+      "supplier": "ПолСервис",
+    "date_received": "2023-10-28",
+    "id_screen": "pol_servis"
+  },
+    {
+    "material_name": "Ламинат 33 класс",
+     "unit_of_measure": "кв.м",
+    "quantity": 50,
+     "price": 700,
+      "supplier": "ПолСервис",
+    "date_received": "2023-10-20",
+     "id_screen": "pol_servis"
+  },
+   {
+    "material_name": "Обои виниловые под покраску",
+    "unit_of_measure": "рулон",
+    "quantity": 25,
+    "price": 800,
+       "supplier": "Обои-Дом",
+    "date_received": "2023-10-25",
+     "id_screen": "oboi_dom"
+  },
+    {
+    "material_name": "Жидкие обои",
+    "unit_of_measure": "упак",
+    "quantity": 10,
+    "price": 1500,
+       "supplier": "Обои-Дом",
+    "date_received": "2023-10-27",
+     "id_screen": "oboi_dom"
+   }
+ ]
+}

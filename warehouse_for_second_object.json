@@ -1,0 +1,184 @@
+{
+  "warehouse": [
+    {
+      "material_name": "Саженец клена",
+      "unit_of_measure": "шт",
+      "quantity": 50,
+      "price": 750,
+      "supplier": "Зеленый Сад",
+      "date_received": "2023-10-26",
+      "id_screen": "zeleny_sad"
+    },
+    {
+      "material_name": "Саженец березы",
+      "unit_of_measure": "шт",
+      "quantity": 70,
+      "price": 600,
+      "supplier": "Зеленый Сад",
+      "date_received": "2023-10-22",
+      "id_screen": "zeleny_sad"
+    },
+    {
+      "material_name": "Саженец ели",
+      "unit_of_measure": "шт",
+      "quantity": 30,
+      "price": 900,
+      "supplier": "Лесной питомник",
+      "date_received": "2023-10-28",
+      "id_screen": "lesnoy_pitomnik"
+    },
+    {
+      "material_name": "Саженец сосны",
+        "unit_of_measure": "шт",
+      "quantity": 40,
+      "price": 800,
+      "supplier": "Лесной питомник",
+      "date_received": "2023-10-25",
+        "id_screen": "lesnoy_pitomnik"
+    },
+        {
+      "material_name": "Кустарник сирени",
+      "unit_of_measure": "шт",
+      "quantity": 60,
+      "price": 400,
+        "supplier": "Цветочный Рай",
+        "date_received": "2023-10-27",
+        "id_screen": "cvetochniy_ray"
+    },
+    {
+      "material_name": "Кустарник жасмина",
+      "unit_of_measure": "шт",
+      "quantity": 50,
+      "price": 450,
+        "supplier": "Цветочный Рай",
+      "date_received": "2023-10-24",
+        "id_screen": "cvetochniy_ray"
+    },
+    {
+      "material_name": "Цветочная рассада петунии",
+      "unit_of_measure": "шт",
+      "quantity": 200,
+      "price": 150,
+        "supplier": "Рассада-Сервис",
+      "date_received": "2023-10-21",
+        "id_screen": "rassada_servis"
+    },
+    {
+      "material_name": "Цветочная рассада бархатцев",
+       "unit_of_measure": "шт",
+      "quantity": 150,
+      "price": 100,
+        "supplier": "Рассада-Сервис",
+      "date_received": "2023-10-23",
+        "id_screen": "rassada_servis"
+    },
+      {
+      "material_name": "Грунт плодородный",
+      "unit_of_measure": "куб.м",
+      "quantity": 20,
+        "price": 1500,
+        "supplier": "Грунт-Сервис",
+        "date_received": "2023-10-20",
+          "id_screen": "grunt_servis"
+    },
+    {
+      "material_name": "Мульча древесная",
+       "unit_of_measure": "куб.м",
+      "quantity": 15,
+        "price": 1200,
+        "supplier": "Грунт-Сервис",
+        "date_received": "2023-10-27",
+          "id_screen": "grunt_servis"
+    },
+     {
+      "material_name": "Бордюрный камень",
+      "unit_of_measure": "шт",
+      "quantity": 100,
+       "price": 300,
+         "supplier": "СтройДвор",
+         "date_received": "2023-10-22",
+         "id_screen": "stroy_dvor"
+    },
+    {
+      "material_name": "Тротуарная плитка",
+      "unit_of_measure": "кв.м",
+      "quantity": 50,
+       "price": 1000,
+         "supplier": "СтройДвор",
+        "date_received": "2023-10-24",
+        "id_screen": "stroy_dvor"
+    },
+     {
+      "material_name": "Песок для газонов",
+      "unit_of_measure": "куб.м",
+      "quantity": 10,
+        "price": 1000,
+          "supplier": "Песок-Строй",
+          "date_received": "2023-10-26",
+          "id_screen": "pesok_stroy"
+    },
+    {
+      "material_name": "Щебень декоративный",
+       "unit_of_measure": "куб.м",
+      "quantity": 5,
+        "price": 2000,
+          "supplier": "Песок-Строй",
+        "date_received": "2023-10-28",
+          "id_screen": "pesok_stroy"
+    },
+       {
+      "material_name": "Скамейка парковая",
+      "unit_of_measure": "шт",
+      "quantity": 15,
+         "price": 8000,
+          "supplier": "ПаркМебель",
+        "date_received": "2023-10-23",
+         "id_screen": "park_mebel"
+    },
+    {
+      "material_name": "Урна для мусора",
+      "unit_of_measure": "шт",
+      "quantity": 20,
+      "price": 1500,
+          "supplier": "ПаркМебель",
+        "date_received": "2023-10-25",
+         "id_screen": "park_mebel"
+    },
+     {
+      "material_name": "Осветительный столб",
+      "unit_of_measure": "шт",
+      "quantity": 10,
+        "price": 12000,
+         "supplier": "Свет-Сервис",
+        "date_received": "2023-10-21",
+         "id_screen": "svet_servis"
+    },
+    {
+       "material_name": "Светильник парковый",
+      "unit_of_measure": "шт",
+      "quantity": 20,
+        "price": 2500,
+        "supplier": "Свет-Сервис",
+        "date_received": "2023-10-20",
+          "id_screen": "svet_servis"
+    },
+    {
+      "material_name": "Газонная трава",
+      "unit_of_measure": "кг",
+      "quantity": 10,
+       "price": 1200,
+        "supplier": "Газон-Сервис",
+        "date_received": "2023-10-26",
+         "id_screen": "gazon_servis"
+   },
+    {
+      "material_name": "Удобрение для газона",
+      "unit_of_measure": "кг",
+      "quantity": 5,
+         "price": 800,
+          "supplier": "Газон-Сервис",
+        "date_received": "2023-10-27",
+          "id_screen": "gazon_servis"
+    }
+  ]
+}
